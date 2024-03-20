@@ -1,0 +1,79 @@
+.register{
+    // width: 100%;
+    background-color: lightblue;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .card{
+        width: 50%;
+        background-color: white;
+        display: flex;
+        min-height: 400px;
+        border-radius: 10px;
+        overflow: hidden;
+        .left{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex: 1;
+            padding: 50px;
+            gap: 50px;
+            h1{
+                color: #555;
+            }
+            form{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                input{
+                    border: none;
+                    border-bottom: 1px solid lightgray;
+                    font-size: 16px;
+                    padding: 10px;
+                }
+                button{
+                    width: 50%;
+                    background-color:  rgba(148, 110, 110, 0.5);
+                    color: white;
+                    border: none;
+                    font-weight: bold;
+                    cursor: pointer;
+                    padding: 10px;
+                    border-radius: 2px;
+                }
+            }
+        }
+        .right{
+            display:flex ;
+            flex-direction: column;
+            flex: 1;
+            color: white;
+            padding: 40px;
+            background:linear-gradient(rgba(148, 110, 110, 0.5),rgba(111, 60, 60, 0.5)), url("https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?auto=compress&cs=tinysrgb&w=1600") center;
+            background-size: cover;
+            gap: 15px;
+
+            h1{
+                font-size: 60px;
+                line-height: 60px;
+            }
+            p{
+                font-size: 18px;
+            }
+            span{
+                font-size: 14px;
+            }
+            button{
+                width: 50%;
+                border: none;
+                color:rgba(148, 110, 110);
+                background-color: white;
+                cursor: pointer;
+                font-weight: bold;
+                padding: 10px;
+                border-radius: 2px;
+            }
+        }
+    }
+}
